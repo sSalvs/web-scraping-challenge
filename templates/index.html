@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Review</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+
+    <div class="jumbotron text-center">
+        <h1 class="display-4"> Mission to Mars </h1>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="/scrape" role="button">Scape New Data </a>
+        </p>
+    </div>
+    <div class="container">
+        <h2>
+            Latest Mars News
+        </h2>
+        <h5> {{ space.news_title }} </h5>
+        <h7> {{ space.news_p}} </h7>
+    </div>
+    <hr />
+    <div class="container image_and_table">
+        <h2> Featured Mars Image
+        </h2>
+        <div class="row">
+            <div class="col">
+                <img src="{{ space.relative_image_path }}" alt="Mars Featured Image">
+
+            </div>
+            <div class="col"> 
+                <Table>
+                    Mars Facts {{ space.Table | safe }} 
+                      
+                </Table>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="container">
+        <h2 class=mars_hemisphere> Mars Hemispheres</h2>
+        <div class="row">
+            <div class="col">
+                <img src="{{ space.img_cerberus }}" alt="Cerberus_Hemisphere_Enhanced" , width="400" height="400">
+                <div>
+                    <h7> {{space.Cerberus_Hemisphere_Enhanced }} </h7>
+                </div>
+            </div>
+            <div class="col">
+                <img src="{{ space.img_schiaparelli }}" alt="schiaparelli_Hemisphere_Enhanced" , width="400" height="400">
+                <div>
+                    <h7> {{space.schiaparelli_enhanced}} </h7>
+                </div>
+            </div>
+            <div class="w-100"></div>
+            <div class="col">
+                <img src="{{ space.img_syrtis }}" alt="syrtis_Hemisphere_Enhanced" , width="400" height="400">
+                <div>
+                    <h7> {{space.syrtis_enchanced}} </h7>
+                </div>
+            </div>
+            <div class="col">
+            <img src="{{ space.valles_img }}" alt="valles_Hemisphere_Enhanced" , width="400" height="400">
+            <div>
+                <h7> {{space.valles_enchanced}} </h7>
+            </div>
+            </div>
+        </div>
+        <hr />
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

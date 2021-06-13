@@ -1,0 +1,503 @@
+<html><head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="css/font.css">
+      <link rel="stylesheet" type="text/css" href="css/app.css">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+      <title>News - Mars Exploration Program</title>
+   </head>
+   <body>
+      <div class="col-md-12">
+      <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#"> 
+            <img src="image/nasa.png" width="80"><span class="logo">MARS Planet Science</span>
+            <span class="logo1">Exploration Program</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#">The Red Planet</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">The Program</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">News &amp; Events</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Multimedia</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Missions</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">More</a>
+                  </li>
+                  <li class="nav-item nav_search">
+                     <a class="nav-link " href="#"></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <section class="search">
+         <div class="container">
+            <h1>News</h1>
+            <div class="col-md-12 filter">
+               <div class="row">
+                  <div class="col-md-3 search_binder">
+                     <input type="text" name="search" class="search_field">
+                     <input type="text" name="search" class="search_submit">
+                  </div>
+                  <div class="col-md-3">
+                     <select id="year" class="form-select " aria-label="Default select example">
+                        <option selected="">Latest</option>
+
+                     <option>2020</option><option>2019</option></select>
+                  </div>
+                  <div class="col-md-3">
+                     <select id="cat" class="form-select " aria-label="Default select example">
+                        <option selected="">All Categories</option>
+
+                     <option>Feature Stories</option><option>Press Releases</option><option>Status Reports</option></select>
+                  </div>
+                  <div class="col-md-3">						
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="image_and_description_container">
+         <div id="news" class="container ">
+
+         
+								<div class="col-md-12">
+									   <hr>
+									   <div class="row">
+										  <div class="col-md-4">
+											 <div class="list_image">
+												<img src="https://mars.nasa.gov/system/news_items/list_view_images/8601_PIA23316-320x240.jpg">
+											 </div>
+										  </div>
+										  <div class="col-md-8">
+										  	<div class="list_text">
+											 <div class="list_date">June 13, 2021</div>
+											 <div class="content_title">All About the Laser (and Microphone) Atop Mars 2020, NASA's Next Rover</div>
+											 <div class="article_teaser_body">SuperCam is a rock-vaporizing instrument that will help scientists hunt for Mars fossils.</div>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+						
+								<div class="col-md-12">
+									   <hr>
+									   <div class="row">
+										  <div class="col-md-4">
+											 <div class="list_image">
+												<img src="https://mars.nasa.gov/system/news_items/list_view_images/8797_maven_illo_v7-320.jpg">
+											 </div>
+										  </div>
+										  <div class="col-md-8">
+										  	<div class="list_text">
+											 <div class="list_date">June 13, 2021</div>
+											 <div class="content_title">Heat and Dust Help Launch Martian Water Into Space, Scientists Find</div>
+											 <div class="article_teaser_body">Scientists using an instrument aboard NASA’s Mars Atmosphere and Volatile EvolutioN, or MAVEN, spacecraft have discovered that water vapor near the surface of the Red Planet is lofted higher into the atmosphere than anyone expected was possible. </div>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+						
+								<div class="col-md-12">
+									   <hr>
+									   <div class="row">
+										  <div class="col-md-4">
+											 <div class="list_image">
+												<img src="https://mars.nasa.gov/system/news_items/list_view_images/8568_PIA23515_annotated-globe-320x240.gif">
+											 </div>
+										  </div>
+										  <div class="col-md-8">
+										  	<div class="list_text">
+											 <div class="list_date">June 12, 2021</div>
+											 <div class="content_title">NASA's Treasure Map for Water Ice on Mars</div>
+											 <div class="article_teaser_body">A new study identifies frozen water just below the Martian surface, where astronauts could easily dig it up.</div>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+						
+								<div class="col-md-12">
+									   <hr>
+									   <div class="row">
+										  <div class="col-md-4">
+											 <div class="list_image">
+												<img src="https://mars.nasa.gov/system/news_items/list_view_images/8408_22206_PIA22655-th.gif">
+											 </div>
+										  </div>
+										  <div class="col-md-8">
+										  	<div class="list_text">
+											 <div class="list_date">June 10, 2021</div>
+											 <div class="content_title">The MarCO Mission Comes to an End</div>
+											 <div class="article_teaser_body">The pair of briefcase-sized satellites made history when they sailed past Mars in 2019.</div>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+						
+								<div class="col-md-12">
+									   <hr>
+									   <div class="row">
+										  <div class="col-md-4">
+											 <div class="list_image">
+												<img src="https://mars.nasa.gov/system/news_items/list_view_images/8578_24741_PIA23586-SAFfloor-MAIN-16_320x240px.jpg">
+											 </div>
+										  </div>
+										  <div class="col-md-8">
+										  	<div class="list_text">
+											 <div class="list_date">June 8, 2021</div>
+											 <div class="content_title">Media Get a Close-Up of NASA's Mars 2020 Rover</div>
+											 <div class="article_teaser_body">The clean room at NASA's Jet Propulsion Laboratory was open to the media to see NASA's next Mars explorer before it leaves for Florida in preparation for a summertime launch.</div>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+						
+								<div class="col-md-12">
+									   <hr>
+									   <div class="row">
+										  <div class="col-md-4">
+											 <div class="list_image">
+												<img src="https://mars.nasa.gov/system/news_items/list_view_images/8505_PIA23275-th.jpg">
+											 </div>
+										  </div>
+										  <div class="col-md-8">
+										  	<div class="list_text">
+											 <div class="list_date">June 8, 2021</div>
+											 <div class="content_title">Scientists Explore Outback as Testbed for Mars </div>
+											 <div class="article_teaser_body">Australia provides a great place for NASA's Mars 2020 and the ESA-Roscosmos ExoMars scientists to hone techniques in preparation for searching for signs ancient life on Mars.</div>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+						
+								<div class="col-md-12">
+									   <hr>
+									   <div class="row">
+										  <div class="col-md-4">
+											 <div class="list_image">
+												<img src="https://mars.nasa.gov/system/news_items/list_view_images/8506_mars-solar-conjunction-th.jpg">
+											 </div>
+										  </div>
+										  <div class="col-md-8">
+										  	<div class="list_text">
+											 <div class="list_date">June 4, 2021</div>
+											 <div class="content_title">What's Mars Solar Conjunction, and Why Does It Matter?</div>
+											 <div class="article_teaser_body">NASA spacecraft at Mars are going to be on their own for a few weeks when the Sun comes between Mars and Earth, interrupting communications.</div>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+						
+								<div class="col-md-12">
+									   <hr>
+									   <div class="row">
+										  <div class="col-md-4">
+											 <div class="list_image">
+												<img src="https://mars.nasa.gov/system/news_items/list_view_images/8719_launch-at-home-320.jpg">
+											 </div>
+										  </div>
+										  <div class="col-md-8">
+										  	<div class="list_text">
+											 <div class="list_date">June 2, 2021</div>
+											 <div class="content_title">NASA Invites Public to Share Excitement of Mars 2020 Perseverance Rover Launch</div>
+											 <div class="article_teaser_body">There are lots of ways to participate in the historic event, which is targeted for July 30.</div>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+						
+								<div class="col-md-12">
+									   <hr>
+									   <div class="row">
+										  <div class="col-md-4">
+											 <div class="list_image">
+												<img src="https://mars.nasa.gov/system/news_items/list_view_images/8520_PIA23466-226.jpg">
+											 </div>
+										  </div>
+										  <div class="col-md-8">
+										  	<div class="list_text">
+											 <div class="list_date">June 2, 2021</div>
+											 <div class="content_title">NASA's Mars 2020 Rover Tests Descent-Stage Separation</div>
+											 <div class="article_teaser_body">A crane lifts the rocket-powered descent stage away from NASA's Mars 2020 rover after technicians tested the pyrotechnic charges that separate the two spacecraft.</div>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+						
+								<div class="col-md-12">
+									   <hr>
+									   <div class="row">
+										  <div class="col-md-4">
+											 <div class="list_image">
+												<img src="https://mars.nasa.gov/system/news_items/list_view_images/8675_Webby_main_320x240.jpg">
+											 </div>
+										  </div>
+										  <div class="col-md-8">
+										  	<div class="list_text">
+											 <div class="list_date">May 29, 2021</div>
+											 <div class="content_title">NASA Wins 4 Webbys, 4 People's Voice Awards</div>
+											 <div class="article_teaser_body">Winners include the JPL-managed "Send Your Name to Mars" campaign, NASA's Global Climate Change website and Solar System Interactive.</div>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+						
+								<div class="col-md-12">
+									   <hr>
+									   <div class="row">
+										  <div class="col-md-4">
+											 <div class="list_image">
+												<img src="https://mars.nasa.gov/system/news_items/list_view_images/8801_20201118_mars2020-320x240.jpg">
+											 </div>
+										  </div>
+										  <div class="col-md-8">
+										  	<div class="list_text">
+											 <div class="list_date">May 28, 2021</div>
+											 <div class="content_title">Hear Audio From NASA's Perseverance As It Travels Through Deep Space</div>
+											 <div class="article_teaser_body">The first to be rigged with microphones, the agency's latest Mars rover picked up the subtle sounds of its own inner workings during interplanetary flight.</div>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+						
+								<div class="col-md-12">
+									   <hr>
+									   <div class="row">
+										  <div class="col-md-4">
+											 <div class="list_image">
+												<img src="https://mars.nasa.gov/system/news_items/list_view_images/8639_bob-heli-226.jpg">
+											 </div>
+										  </div>
+										  <div class="col-md-8">
+										  	<div class="list_text">
+											 <div class="list_date">May 24, 2021</div>
+											 <div class="content_title">The Man Who Wanted to Fly on Mars</div>
+											 <div class="article_teaser_body">The Mars Helicopter is riding to the Red Planet this summer with NASA's Perseverance rover. The helicopter's chief engineer, Bob Balaram, shares the saga of how it came into being.</div>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+						
+								<div class="col-md-12">
+									   <hr>
+									   <div class="row">
+										  <div class="col-md-4">
+											 <div class="list_image">
+												<img src="https://mars.nasa.gov/system/news_items/list_view_images/8699_helicopter-delivery-system-320.jpg">
+											 </div>
+										  </div>
+										  <div class="col-md-8">
+										  	<div class="list_text">
+											 <div class="list_date">May 23, 2021</div>
+											 <div class="content_title">How NASA's Mars Helicopter Will Reach the Red Planet's Surface</div>
+											 <div class="article_teaser_body">The small craft will seek to prove that powered, controlled flight is possible on another planet. But just getting it onto the surface of Mars will take a whole lot of ingenuity.</div>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+						
+								<div class="col-md-12">
+									   <hr>
+									   <div class="row">
+										  <div class="col-md-4">
+											 <div class="list_image">
+												<img src="https://mars.nasa.gov/system/news_items/list_view_images/8659_1-PIA23883-MAIN-320x240.jpg">
+											 </div>
+										  </div>
+										  <div class="col-md-8">
+										  	<div class="list_text">
+											 <div class="list_date">May 16, 2021</div>
+											 <div class="content_title">Alabama High School Student Names NASA's Mars Helicopter</div>
+											 <div class="article_teaser_body">Vaneeza Rupani's essay was chosen as the name for the small spacecraft, which will mark NASA's first attempt at powered flight on another planet.</div>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+						
+								<div class="col-md-12">
+									   <hr>
+									   <div class="row">
+										  <div class="col-md-4">
+											 <div class="list_image">
+												<img src="https://mars.nasa.gov/system/news_items/list_view_images/8723_PIA24031-320.jpg">
+											 </div>
+										  </div>
+										  <div class="col-md-8">
+										  	<div class="list_text">
+											 <div class="list_date">May 13, 2021</div>
+											 <div class="content_title">NASA's Perseverance Rover Will Carry First Spacesuit Materials to Mars</div>
+											 <div class="article_teaser_body">In a Q&amp;A, spacesuit designer Amy Ross explains how five samples, including a piece of helmet visor, will be tested aboard the rover, which is targeting a July 30 launch. </div>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+						</div>
+         <hr class="container" style="margin: 25px auto;width: 83%;">
+         <button id="more" class="btn disable" onclick="populateContent()">More</button>
+      </section>
+      <section class="last_news">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <h2>You Might Also Like</h2>
+               </div>
+               <!--  <a class=" prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                  <i class="fas fa-angle-left"></i>
+                  </a>
+                  <a class=" next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                  <i class="fas fa-angle-right"></i>
+                  </a> -->
+               <div class="col-12">
+                  <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="row">
+                              <div class="col-md-4 mb-3">
+                                 <div class="card">
+                                    <img class="img-fluid" alt="100%x280" src="https://mars.nasa.gov/system/news_items/main_images/8716_PIA23499-16.jpg">
+                                    <div class="card-body">
+                                       <p class="card-text">NASA to Broadcast Mars 2020 Perseverance Launch, Prelaunch Activities</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4 mb-3">
+                                 <div class="card">
+                                    <img class="img-fluid" alt="100%x280" src="https://mars.nasa.gov/system/news_items/main_images/8716_PIA23499-16.jpg">
+                                    <div class="card-body">
+                                       <p class="card-text">The Launch Is Approaching for NASA's Next Mars Rover, Perseverance</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4 mb-3">
+                                 <div class="card">
+                                    <img class="img-fluid" alt="100%x280" src="https://mars.nasa.gov/system/news_items/main_images/8692_PIA23920-web.jpg">
+                                    <div class="card-body">
+                                       <p class="card-text">NASA to Hold Mars 2020 Perseverance Rover Launch Briefing</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="row">
+                              <div class="col-md-4 mb-3">
+                                 <div class="card">
+                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
+                                    <div class="card-body">
+                                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4 mb-3">
+                                 <div class="card">
+                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
+                                    <div class="card-body">
+                                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4 mb-3">
+                                 <div class="card">
+                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
+                                    <div class="card-body">
+                                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="row">
+                              <div class="col-md-4 mb-3">
+                                 <div class="card">
+                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
+                                    <div class="card-body">
+                                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4 mb-3">
+                                 <div class="card">
+                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
+                                    <div class="card-body">
+                                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4 mb-3">
+                                 <div class="card">
+                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
+                                    <div class="card-body">
+                                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="footer">
+         <div class="container">
+            <div class="col-md-12">
+               <div class="row">
+                  <div class="col-md-3">
+                     <h5>The Red Planet</h5>
+                     <ul>
+                        <li>Dashboard</li>
+                        <li>Science Goals</li>
+                        <li>The Planet</li>
+                     </ul>
+                  </div>
+                  <div class="col-md-3">
+                     <h5>The Program</h5>
+                     <ul>
+                        <li>Mission Statement</li>
+                        <li>About the Program</li>
+                        <li>Organization Why Mars?</li>
+                     </ul>
+                  </div>
+                  <div class="col-md-3">
+                     <h5>Multimedia</h5>
+                     <ul>
+                        <li>Images</li>
+                        <li>Videos</li>
+                        <li>More Resources</li>
+                     </ul>
+                  </div>
+                  <div class="col-md-3">
+                     <h5>Missions</h5>
+                     <ul>
+                        <li>Past</li>
+                        <li>Present</li>
+                        <li>Future</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+      <script src="js/app.js"></script>
+   
+</div></div></body></html>
